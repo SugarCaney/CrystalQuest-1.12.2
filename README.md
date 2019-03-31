@@ -1,6 +1,6 @@
-CrystalQuest Version 1.3
+CrystalQuest Version 1.3.1
 ====================================================
-A PvP-stylish minigame made by MrSugarCaney
+CraftBukkit 1.12.2 port of the famous PvP-stylish minigame made by SugarCaney.
 
 A minigame where every Crystal counts!
 
