@@ -259,7 +259,10 @@ public class SignListener implements Listener {
                     else {
                         Arena a = plugin.getArenaManager().getArena(s.getLine(1).replace(ChatColor.ITALIC + "", ""));
                         if (a != null) {
-                            if (!a.isFull()) {
+                            if (plugin.am.isInGame(e.getPlayer())) {
+                                e.getPlayer().sendMessage(Broadcast.get("commands.lobby-already-ingame"));
+                            }
+                            else if (!a.isFull()) {
                                 plugin.menuPT.updateMenu(a);
                                 plugin.menuPT.showMenu(e.getPlayer(), a);
                             }
