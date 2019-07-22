@@ -1,4 +1,4 @@
-CrystalQuest Version 1.3.3
+CrystalQuest Version 1.3.4
 ====================================================
 CraftBukkit 1.12.2 port of the famous PvP-stylish minigame made by SugarCaney.
 This build is not officially supported any more. Only for critical bugs.
